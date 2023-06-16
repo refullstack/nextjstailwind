@@ -325,6 +325,10 @@ const Header = () => {
       </Transition.Root>
 
       <header className="relative overflow-hidden">
+        <p className="flex h-10 items-center justify-center bg-indigo-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
+          Please bear with me as I build this site. The content is currently
+          static as I work on the database and api.
+        </p>
         {/* Top navigation */}
         <nav
           aria-label="Top"
